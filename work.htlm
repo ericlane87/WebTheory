@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our Work - Armando Tree Service</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1591088398332-f27bc3bc9a6e?auto=format&fit=crop&w=1500&q=80')
+    center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+/* NAVBAR */
+nav {
+  background: #eee;
+  padding: 12px;
+  text-align: center;
+}
+nav a {
+  margin: 0 14px;
+  color: #2f4f2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECTION */
+section {
+  padding: 45px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* TITLE */
+.section-title {
+  text-align: center;
+  color: #2f4f2f;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+.section-subtitle {
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+}
+
+/* GALLERY GRID */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* PLACEHOLDER IMAGE BOXES */
+.placeholder {
+  width: 100%;
+  height: 200px;
+  background: #dcdcdc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  background:#e6e6e6;
+  color:#555;
+  text-align:center;
+  padding:20px;
+  font-size:0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Our Work</h1>
+  <p>Professional Tree Services • Before & After Projects</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="work.html">Our Work</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2 class="section-title">See What We Can Do</h2>
+  <p class="section-subtitle">
+    Replace these boxes with your own real photos.  
+    Great for showcasing tree removals, cleanups, stump grinding, or trimming work.
+  </p>
+
+  <div class="gallery">
+
+    <div class="placeholder">Before Photo 1</div>
+    <div class="placeholder">After Photo 1</div>
+
+    <div class="placeholder">Before Photo 2</div>
+    <div class="placeholder">After Photo 2</div>
+
+    <div class="placeholder">Before Photo 3</div>
+    <div class="placeholder">After Photo 3</div>
+
+    <div class="placeholder">Before Photo 4</div>
+    <div class="placeholder">After Photo 4</div>
+
+  </div>
+</section>
+
+<footer>
+  © 2025 Armando Tree Service — All Rights Reserved
+</footer>
+
+</body>
+</html>
